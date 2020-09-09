@@ -1,34 +1,30 @@
 .infoBox {
+  background-color: #4a4c50 !important;
   flex: 1;
   cursor: pointer;
 }
 
-.infoBox:not(:last-child) {
-  margin-right: 10px;
-}
-
 .infoBox--selected {
-  border-top: 10px solid greenyellow;
-}
-
-.infoBox--red {
-  border-color: red;
+  border-bottom: 10px solid #edc100;
 }
 
 .infoBox__cases {
-  color: #cc1034;
+  display: flex;
+  flex-direction: row;
+  color: #edc401;
   font-weight: 600;
-  font-size: 1.75rem;
-  margin-bottom: 0.5rem;
+  font-size: 18px;
 }
 
-.infoBox__cases--green {
-  color: lightgreen !important;
+.infoBox__title {
+  color: white;
+  font-size: 16px;
+  padding-right: 10px;
 }
 
-.infoBox__total {
-  color: #6c757d;
-  font-weight: 700 !important;
-  font-size: 0.8rem !important;
-  margin-top: 15px !important;
+.infoBox__today {
+  color: white !important;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  font-weight: bolder !important;
 }

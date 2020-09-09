@@ -9,7 +9,7 @@ function Table({ countries }) {
         <tr>
           <td>{country}</td>
           <td>
-            <strong>{numeral(cases).format("0,0")}</strong>
+            <div className="table__cases">{numeral(cases).format("0,0")}</div>
           </td>
         </tr>
       ))}
