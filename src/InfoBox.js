@@ -1,6 +1,7 @@
 import React from "react";
 import "./InfoBox.css";
 import { Card, CardContent, Typography } from "@material-ui/core";
+import numeral from "numeral";
 
 function InfoBox({ title, cases, isInfected, active, today, ...props }) {
   return (
@@ -19,7 +20,7 @@ function InfoBox({ title, cases, isInfected, active, today, ...props }) {
           <div className="infoBox__title">{title} </div> {cases}
         </div>
         <Typography className="infoBox__today" color="textSecondary">
-          Today: {today}
+          Today: {numeral(today).format("0,0")}
         </Typography>
       </CardContent>
     </Card>
