@@ -5,25 +5,25 @@
 }
 
 .infoBox--selected {
-  border-bottom: 10px solid #edc100;
+  border-bottom: 10px solid #66fcf1;
 }
 
 .infoBox__cases {
   display: flex;
   flex-direction: row;
-  color: #edc401;
+  color: #66fcf1;
   font-weight: 600;
   font-size: 18px;
 }
 
 .infoBox__title {
-  color: white;
+  color: #c5c6c7;
   font-size: 16px;
   padding-right: 10px;
 }
 
 .infoBox__today {
-  color: white !important;
+  color: #c5c6c7 !important;
   font-weight: 600 !important;
   font-size: 20px !important;
   font-weight: bolder !important;

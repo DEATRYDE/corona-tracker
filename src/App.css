@@ -3,8 +3,8 @@
 }
 
 body {
-  background-color: #5a616f;
-  color: white;
+  background-color: #0b0c10;
+  color: #c5c6c7;
 }
 
 .app {
@@ -14,17 +14,17 @@ body {
 }
 
 .app__dropdown {
-  background-color: #4a4c50;
+  background-color: #1f2833;
   font-weight: bold;
 }
 
 .app__dropdown .MuiSelect-root {
-  color: white !important;
+  color: #c5c6c7;
 }
 
 .MuiPaper-root {
-  background-color: #4a4c50 !important;
-  color: white !important;
+  background-color: #1f2833 !important;
+  color: #c5c6c7 !important;
 }
 
 .app__header {
@@ -37,7 +37,7 @@ body {
 .title {
   font-size: 80px;
   font-weight: bold;
-  color: #f0c701;
+  color: #66fcf1;
   text-transform: uppercase;
   margin-left: 5%;
   margin-bottom: 3%;
@@ -67,12 +67,12 @@ body {
 }
 
 .app__element:last-child {
-  border: 10px solid #edc100;
+  border: 10px solid #66fcf1;
 }
 
 .app__right {
-  color: white !important;
-  background-color: #4a4c50 !important;
+  color: #c5c6c7 !important;
+  background-color: #1f2833 !important;
   display: flex;
   flex-direction: column;
 }

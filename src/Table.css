@@ -15,10 +15,10 @@
 }
 
 .table tr:nth-of-type(odd) {
-  background-color: #3c3e44;
+  background-color: #0b0c10;
 }
 
 .table__cases {
   font-weight: 600;
-  color: #f0c701;
+  color: #66fcf1;
 }
